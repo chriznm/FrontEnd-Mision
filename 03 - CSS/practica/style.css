@@ -6,14 +6,14 @@
   display: inline-block;
   color: blue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   padding-left: 150px;
 }
 
 .navigation {
   padding-right: 150px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.4em;
+  font-size: 2em;
   color: gray;
   
 }
