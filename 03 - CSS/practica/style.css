@@ -1,3 +1,9 @@
+h2 {
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+}
+
 .header {
   height: 160px;
 }
@@ -38,7 +44,6 @@
 }
 
 .title-nav-container {
-  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,24 +119,16 @@
   position: absolute;
   left: 950px;
   z-index: 2;
-  background-color:blue;
+  background-color:darkblue;
   height: 1010px;
   width: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
+.why-vaccine {
+  top: 1010px;
+}
 
 .logos {
-  position: relative;
   width: 100%;
   top: 100px;
 }
