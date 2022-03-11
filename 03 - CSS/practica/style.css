@@ -1,0 +1,154 @@
+.header {
+  height: 160px;
+}
+
+.header-title {
+  display: inline-block;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  padding-left: 150px;
+}
+
+.navigation {
+  padding-right: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4em;
+  color: gray;
+  
+}
+
+.header-list {
+  list-style: none;
+}
+
+.header-list li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.header-list li a {
+  display: block;
+}
+
+.header-button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.title-nav-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slides {
+  position: relative;
+}
+
+.fight-virus {
+  position: absolute;
+  left: 150px; top: 50px; z-index: 1;
+}
+
+.fight-virus h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 6em;
+  color:darkblue;
+}
+
+.fight-virus p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  color:gray
+}
+
+.fight-virus p i {
+  color:yellow;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fight-virus span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  color:darkblue
+}
+
+.fight-virus span i {
+  margin-right: 20px;
+}
+
+.schedule-vaccination {
+  background-color: white;
+  opacity: .9;
+  position: absolute;
+  left: 150px;
+  top: 800px;
+  z-index: 3;
+  width: 1300px;
+  height: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  color:darkblue;
+  border-radius: 7px;
+  box-shadow: 1px 1px 25px gray;
+}
+
+.schedule-vaccination table {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.schedule-vaccination table tr td {
+  padding-right: 125px;
+}
+
+.schedule-vaccination table tr td span i {
+  padding-right: 15px;
+}
+
+.img-1 {
+  position: absolute;
+  left: 950px;
+  z-index: 2;
+  background-color:blue;
+  height: 1010px;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logos {
+  position: relative;
+  width: 100%;
+  top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.split-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
