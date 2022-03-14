@@ -4,6 +4,13 @@ h2 {
   font-size: 3em;
 }
 
+h3 {
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.3em;
+  margin: 0;
+}
+
 .header {
   height: 160px;
 }
@@ -133,19 +140,262 @@ h2 {
   top: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.split-nav-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.should-i-vaccine {
+  position: relative;
+  padding-left: 175px;
 }
+
+.should-i-vaccine p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  color:gray;
+  margin: 0px;
+}
+
+.reasons{
+  margin-top: 100px;
+}
+
+.reasons p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  color:gray;
+}
+
+.reasons i {
+  color:blue;
+  font-size: 2em;
+}
+
+.minimize {
+  border-radius: 7px;
+  box-shadow: 1px 1px 25px gray;
+  position: absolute;
+  left: 175px;
+  height: 400px;
+  width: 375px;
+}
+
+.minimize i {
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: rgba(247, 247, 247, 0.844);
+  border-radius: 5px;
+}
+
+.minimize h3 {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.minimize p {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 1.5em;
+}
+
+.forming {
+  border-radius: 7px;
+  box-shadow: 1px 1px 25px gray;
+  position: absolute;
+  left: 200px;
+  height: 400px;
+  width: 375px;
+  left: 600px;
+}
+
+.forming i {
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: rgba(247, 247, 247, 0.844);
+  border-radius: 5px;
+}
+
+.forming h3 {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.forming p {
+  margin-top: 75px;
+  margin-left: 25px;
+  font-size: 1.5em;
+}
+
+.protecting {
+  border-radius: 7px;
+  box-shadow: 1px 1px 25px gray;
+  position: absolute;
+  left: 200px;
+  height: 400px;
+  width: 375px;
+  left: 700px;
+  left: 1025px;
+}
+
+.protecting i {
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: rgba(247, 247, 247, 0.844);
+  border-radius: 5px;
+}
+
+.protecting h3 {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.protecting p {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 1.5em;
+}
+
+.creating {
+  border-radius: 7px;
+  box-shadow: 1px 1px 25px gray;
+  position: absolute;
+  left: 200px;
+  height: 400px;
+  width: 375px;
+  left: 1450px;
+}
+
+.creating i {
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: rgba(247, 247, 247, 0.844);
+  border-radius: 5px;
+}
+
+.creating h3 {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.creating p {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 1.5em;
+}
+
+.preparations {
+  top: 1600px;
+}
+
+.before-vaccine {
+  position: absolute;
+  left: 50%;
+}
+
+.before-vaccine h2 {
+  margin-top: 150px;
+}
+
+.before-vaccine p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  color: gray;
+}
+
+.before-vaccine i {
+  color: darkblue;
+  background-color: rgba(221, 221, 221, 0.556);
+  border-radius: 5px;
+  font-size: 1.8em;
+  margin-left: 25px;
+}
+
+.before-vaccine span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8em;
+  color: darkblue;
+  padding-left: 10px;
+}
+
+.row {
+  box-shadow: 1px 1px 25px gray;
+  border-radius: 5px;
+}
+
+.before-vaccine table tr td {
+  width: 750px;
+  height: 100px;
+}
+
+.espacio {
+  height: 25px;
+}
+
+.img-2 {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  background-color:darkblue;
+  height: 1010px;
+  width:45%;
+}
+
+.emergency {
+  top: 2700px;
+}
+
+.emergency-contact {
+  position: absolute;
+  width: 50%;
+}
+
+.emergency-contact h2 {
+  margin-top: 150px;
+}
+
+.emergency-contact p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  color: gray;
+}
+
+.emergency-contact i {
+  color: darkblue;
+  background-color: rgba(221, 221, 221, 0.556);
+  border-radius: 5px;
+  font-size: 1.8em;
+  margin-left: 25px;
+}
+
+.emergency-contact span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8em;
+  color: darkblue;
+  padding-left: 10px;
+}
+
+.now-space{
+  padding-left: 100px;
+}
+
+.img-3 {
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+  background-color:darkblue;
+  height: 1010px;
+  width: 50%;
+}
+
+.footer {
+  background-color: gray;
+  height: 100px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+footer {
+  position: absolute;
+  top: 4630px;
+  width: 100%;
+}
+
